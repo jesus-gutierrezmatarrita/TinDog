@@ -67,13 +67,13 @@ h2 {
     font-size: 2.5rem;
 }
 
-.feature-box > h3 {
+h3 {
     font-size: 1.5rem;
     padding-top: 2%;
     font-weight: 700;
 }
 
-.feature-box > p {
+p {
     color: #8f8f8f;
 }
 
@@ -96,6 +96,10 @@ h2 {
     margin: 20px;
 }
 
+.carousel-item {
+    padding: 7% 15%;
+}
+
 /***********************PRESS*********************************/
 #press {
     background-color: #ef8172;
@@ -106,4 +110,14 @@ h2 {
 .press-logo {
     width: 15%;
     margin: 20px 20px 50px;
+}
+
+/********************PRICING***************************************/
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.card-container {
+    padding: 2%;
 }
