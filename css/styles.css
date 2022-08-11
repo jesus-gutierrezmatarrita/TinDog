@@ -2,6 +2,11 @@ body {
     font-family: 'Montserrat';
 }
 
+hr {
+    color: white;
+    width: 100%;
+}
+
 h1 {
     font-size: 3.5rem;
     font-weight: 900; /*Montserrat Black*/
@@ -52,11 +57,18 @@ h2 {
 
 /* Title image */
 .title-img {
-    width: 60%;
+    width: 18%;
     transform: rotate(25deg);
+    position: absolute;
 }
 
 /*********************************** Section Features *******************/
+#features {
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
 #features-container {
     text-align: center;
     padding: 7% 15%;
@@ -100,10 +112,6 @@ p {
     padding: 7% 15%;
 }
 
-.carousel-inner {
-    height: 35rem;
-}
-
 /***********************PRESS*********************************/
 #press {
     background-color: #ef8172;
@@ -124,4 +132,21 @@ p {
 
 .card-container {
     padding: 2%;
+}
+
+/*************************RESPONSIVENESS*****************************/
+@media (max-width: 990px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        width: 60%;
+        transform: rotate(0deg);
+    }
+
+    body {
+        font-size: medium;
+    }
 }
