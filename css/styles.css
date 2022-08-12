@@ -143,6 +143,10 @@ p {
     margin: 20px 10px;
 }
 
+#footer .container-fluid {
+    padding: 1% 15% !important;
+}
+
 /*************************RESPONSIVENESS*****************************/
 @media (max-width: 990px) {
 
